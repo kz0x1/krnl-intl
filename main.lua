@@ -1,8 +1,9 @@
 local ToggleKeybind = Enum.KeyCode.RightAlt
 local DeleteKeybind = Enum.KeyCode.Delete
 
-function identifyexecutor() return 'KRNL', 'Zenith Remake' end
-function printidentity() print('The current identity is', '4') end
+function identifyexecutor() return 'KRNL Remake', '1.0' end
+-- function printidentity() print('The current identity is', '4') end
+-- i ain't using that !! ^
 function unc() loadstring(game:HttpGet("https://github.com/unified-naming-convention/NamingStandard/raw/main/UNCCheckEnv.lua"))() end
 
 local Krnl = Instance.new("ScreenGui")
