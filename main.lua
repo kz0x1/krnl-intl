@@ -1,6 +1,12 @@
 local ToggleKeybind = Enum.KeyCode.RightAlt
 local DeleteKeybind = Enum.KeyCode.Delete
+local StarterGui = game:GetService("StarterGui")
 
+StarterGui:SetCore("SendNotification", {
+    Title = "Zenith Team 🌠",  -- The title of the notification
+    Text = "KRNL Remake Loaded! Enjoy!",  -- The message displayed on the notification
+    Duration = 5  -- Duration in seconds for how long the notification stays on the screen
+})
 function identifyexecutor() return 'KRNL Remake', '1.0' end
 -- function printidentity() print('The current identity is', '4') end
 -- i ain't using that !! ^
