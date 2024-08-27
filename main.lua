@@ -2,7 +2,7 @@ local ToggleKeybind = Enum.KeyCode.RightAlt
 local DeleteKeybind = Enum.KeyCode.Delete
 
 function identifyexecutor() return 'KRNL', 'Zenith Remake' end
-function printidentity() print('The current identity is ', '4') end
+function printidentity() print('The current identity is', '4') end
 
 local Krnl = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
