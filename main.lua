@@ -1,4 +1,5 @@
-local ToggleKeybind = Enum.KeyCode.RightAlt
+local keybMin = "RightAlt"
+local ToggleKeybind = Enum.KeyCode.keybMin
 local DeleteKeybind = Enum.KeyCode.Delete
 local StarterGui = game:GetService("StarterGui")
 
@@ -391,6 +392,11 @@ end)
 
 MinimizeBtn.MouseButton1Click:Connect(function()
 	Main.Visible = false
+	StarterGui:SetCore("SendNotification", {
+    		Title = "Zenith Team 🌠",  -- The title of the notification
+		Text = "KRNL Minimised! Use "..keybMin.." to make it visible!",  -- The message displayed on the notification
+	        Duration = 5  -- Duration in seconds for how long the notification stays on the screen
+	})
 	game:GetService("UserInputService").InputBegan:Connect(function(input)
 		if input.KeyCode == ToggleKeybind then
 			if Main.Visible == false then
