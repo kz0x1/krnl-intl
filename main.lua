@@ -3,6 +3,7 @@ local DeleteKeybind = Enum.KeyCode.Delete
 
 function identifyexecutor() return 'KRNL', 'Zenith Remake' end
 function printidentity() print('The current identity is', '4') end
+function unc() loadstring(game:HttpGet("https://github.com/unified-naming-convention/NamingStandard/raw/main/UNCCheckEnv.lua"))() end
 
 local Krnl = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
@@ -58,6 +59,11 @@ Main.Size = UDim2.new(0, 600, 0, 330)
 Main.Draggable = true
 Main.Active = true
 Main.Selectable = true
+
+function reloadUI() 
+	Main:Destroy()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/iamvyn/krnl-intl/main/main.lua"))()
+end
 
 Header.Name = tostring(math.random(100000, 999999))
 Header.Parent = Main
