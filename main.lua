@@ -1,5 +1,5 @@
 local keybMin = "RightAlt"
-local ToggleKeybind = Enum.KeyCode.keybMin
+local ToggleKeybind = Enum.KeyCode.RightAlt
 local DeleteKeybind = Enum.KeyCode.Delete
 local StarterGui = game:GetService("StarterGui")
 
