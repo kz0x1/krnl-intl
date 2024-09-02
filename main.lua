@@ -7,6 +7,13 @@ StarterGui:SetCore("SendNotification", {
     Text = "KRNL Remake Loaded! Enjoy!",  -- The message displayed on the notification
     Duration = 5  -- Duration in seconds for how long the notification stays on the screen
 })
+
+theNum = 0
+while theNum <= 10 do
+	print()
+	theNum += 1
+end
+
 function identifyexecutor() return 'KRNL Remake', '1.0' end
 -- function printidentity() print('The current identity is', '4') end
 -- i ain't using that !! ^
