@@ -9,8 +9,8 @@ StarterGui:SetCore("SendNotification", {
 })
 
 theNum = 0
-while theNum <= 50 do
-	warn("Zenith team")
+while theNum <= 20 do
+	print()
 	theNum += 1
 end
 
