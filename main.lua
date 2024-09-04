@@ -8,11 +8,22 @@ StarterGui:SetCore("SendNotification", {
     Duration = 5  -- Duration in seconds for how long the notification stays on the screen
 })
 
-theNum = 0
-while theNum <= 20 do
-	print()
-	theNum += 1
+local line1 = "      :::    ::: :::::::::  ::::    ::: :::  "
+local line2 = "     :+:   :+:  :+:    :+: :+:+:   :+: :+:   "
+local line3 = "    +:+  +:+   +:+    +:+ :+:+:+  +:+ +:+    "
+local line4 = "   +#++:++    +#++:++#:  +#+ +:+ +#+ +#+     "
+local line5 = "  +#+  +#+   +#+    +#+ +#+  +#+#+# +#+      "
+local line6 = " #+#   #+#  #+#    #+# #+#   #+#+# #+#       "
+local line7 = "###    ### ###    ### ###    #### ########## "
+local line8 = "team zenith remake"
+
+local lines = {line1, line2, line3, line4, line5, line6, line7, line8}
+
+for _, line in ipairs(lines) do
+    warn(line)
 end
+
+
 
 function identifyexecutor() return 'KRNL Remake', '1.0' end
 -- function printidentity() print('The current identity is', '4') end
