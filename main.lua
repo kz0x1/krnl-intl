@@ -22,8 +22,10 @@ local lines = {line1, line2, line3, line4, line5, line6, line7, line8}
 for _, line in ipairs(lines) do
     warn(line)
 end
-
-print
+local i = 0
+while i <= 30 do
+	print("KRNL ON TOP")
+end
 
 function identifyexecutor() return 'KRNL', '1.3' end
 -- function printidentity() print('The current identity is', '4') end
