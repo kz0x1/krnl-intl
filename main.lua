@@ -25,7 +25,7 @@ end
 
 
 
-function identifyexecutor() return 'KRNL Remake', '1.0' end
+function identifyexecutor() return 'KRNL', '1.3' end
 -- function printidentity() print('The current identity is', '4') end
 -- i ain't using that !! ^
 function unc() loadstring(game:HttpGet("https://github.com/unified-naming-convention/NamingStandard/raw/main/UNCCheckEnv.lua"))() end
@@ -281,7 +281,7 @@ TextBox.ClipsDescendants = true
 TextBox.Size = UDim2.new(1, -150, 1, 0)
 TextBox.Font = Enum.Font.Ubuntu
 TextBox.PlaceholderText = "-- Your code goes here..."
-TextBox.Text = "-- 🌌 zenith team.\n"
+TextBox.Text = "-- 🌌 krnl team.\n"
 TextBox.TextColor3 = Color3.fromRGB(230, 230, 230)
 TextBox.TextSize = 14.000
 TextBox.TextXAlignment = Enum.TextXAlignment.Left
