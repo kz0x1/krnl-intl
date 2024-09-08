@@ -23,7 +23,7 @@ for _, line in ipairs(lines) do
     warn(line)
 end
 
-
+print
 
 function identifyexecutor() return 'KRNL', '1.3' end
 -- function printidentity() print('The current identity is', '4') end
