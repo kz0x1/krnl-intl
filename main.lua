@@ -3,7 +3,7 @@ local DeleteKeybind = Enum.KeyCode.Delete
 local StarterGui = game:GetService("StarterGui")
 
 StarterGui:SetCore("SendNotification", {
-    Title = "Zenith Team 🌠",  -- The title of the notification
+    Title = "🌠",  -- The title of the notification
     Text = "KRNL Remake Loaded! Enjoy!",  -- The message displayed on the notification
     Duration = 5  -- Duration in seconds for how long the notification stays on the screen
 })
@@ -15,7 +15,7 @@ local line4 = "   +#++:++    +#++:++#:  +#+ +:+ +#+ +#+     "
 local line5 = "  +#+  +#+   +#+    +#+ +#+  +#+#+# +#+      "
 local line6 = " #+#   #+#  #+#    #+# #+#   #+#+# #+#       "
 local line7 = "###    ### ###    ### ###    #### ########## "
-local line8 = "team zenith remake"
+local line8 = ".."
 
 local lines = {line1, line2, line3, line4, line5, line6, line7, line8}
 
