@@ -453,7 +453,7 @@ end)
 MinimizeBtn.MouseButton1Click:Connect(function()
 	Main.Visible = false
 	StarterGui:SetCore("SendNotification", {
-    		Title = "Zenith Team 🌠",  -- The title of the notification
+    		Title = "🌠",  -- The title of the notification
 		Text = "KRNL Minimised! Use RightAlt to make it visible",  -- The message displayed on the notification
 	        Duration = 5  -- Duration in seconds for how long the notification stays on the screen
 	})
@@ -473,19 +473,19 @@ Button1_2.MouseButton1Click:connect(function()
 	if injected == false then
 		Title.Text = "KRNL - Not Injected!"
 		wait(2)
-		Title.Text = "KRNL Remake - Team Zenith"
+		Title.Text = "KRNL - Injected"
 	end
 end)
 
 Button2_2.MouseButton1Click:connect(function()
-	TextBox.Text = "Made by team Zenith!"
+	TextBox.Text = "KRNL"
 end)
 
 Button3_2.MouseButton1Click:connect(function()
 	if injected == true then
 		Title.Text = "KRNL - ALREADY INJECTED"
 		wait(2)
-		Title.Text = "KRNL - Injected - Team Zenith"
+		Title.Text = "KRNL - Injected"
 	end
 	if injected == false then
 		Title.Text = "KRNL - Checking Version."
@@ -496,9 +496,9 @@ Button3_2.MouseButton1Click:connect(function()
 		wait(0.5)
 		Title.Text = "KRNL - Scanning."
 		wait(0.5)
-		Title.Text = "Made by Zenith Team!"
+		Title.Text = "Ready!"
 		wait(0.5)
-		Title.Text = "KRNL - Injected - Team Zenith"
+		Title.Text = "KRNL - Injected"
 		injected = true
 	end
 end)
