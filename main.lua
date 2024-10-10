@@ -20,11 +20,11 @@ local line8 = ".."
 local lines = {line1, line2, line3, line4, line5, line6, line7, line8}
 
 for _, line in ipairs(lines) do
-    warn(line)
+    print(line)
 end
 local i = 0
-while i <= 30 do
-	print("KRNL ON TOP")
+while i <= 10 do
+	print("KRNL Loaded!")
 end
 
 function identifyexecutor() return 'KRNL', '1.3' end
