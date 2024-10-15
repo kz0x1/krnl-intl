@@ -474,7 +474,7 @@ Button1_2.MouseButton1Click:connect(function()
 	end
 	if injected == false then
 		Title.Text = "KRNL - Not Injected!"
-		wait(2)
+		task.wait(2)
 		Title.Text = "KRNL - Injected"
 	end
 end)
@@ -486,20 +486,20 @@ end)
 Button3_2.MouseButton1Click:connect(function()
 	if injected == true then
 		Title.Text = "KRNL - ALREADY INJECTED"
-		wait(2)
+		task.wait(2)
 		Title.Text = "KRNL - Injected"
 	end
 	if injected == false then
 		Title.Text = "KRNL - Checking Version."
-		wait(1)
+		task.wait(1)
 		Title.Text = "KRNL - Newest Version!"
-		wait(1)
+		task.wait(1)
 		Title.Text = "KRNL - Waiting for dependencies."
-		wait(0.5)
+		task.wait(0.5)
 		Title.Text = "KRNL - Scanning."
-		wait(0.5)
+		task.wait(0.5)
 		Title.Text = "Ready!"
-		wait(0.5)
+		task.wait(0.5)
 		Title.Text = "KRNL - Injected"
 		injected = true
 	end
