@@ -3,8 +3,8 @@ local DeleteKeybind = Enum.KeyCode.Delete
 local StarterGui = game:GetService("StarterGui")
 
 -- more unc for more unc
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-MoreUNC-13110"))()
-
+-- loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-MoreUNC-13110"))()
+-- "MoreUNC is fucking balls" - RazAPI
 -- thanks for funny unc raz
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RazAPI/Scorpion/refs/heads/main/Debug/x64/Model/ProtectedEnvironment.lua"))()
 
