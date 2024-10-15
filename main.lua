@@ -27,7 +27,7 @@ while i <= 10 do
 	print("KRNL Loaded!")
 end
 
-function identifyexecutor() return 'KRNL', '1.3' end
+function identifyexecutor() return 'Niggersploit', 'NIGGER EDITION' end
 -- function printidentity() print('The current identity is', '4') end
 -- i ain't using that !! ^
 function unc() loadstring(game:HttpGet("https://github.com/unified-naming-convention/NamingStandard/raw/main/UNCCheckEnv.lua"))() end
