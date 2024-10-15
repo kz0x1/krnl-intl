@@ -2,6 +2,13 @@ local ToggleKeybind = Enum.KeyCode.RightAlt
 local DeleteKeybind = Enum.KeyCode.Delete
 local StarterGui = game:GetService("StarterGui")
 
+--[[ 
+-- idk how to use this so ima just comment it..
+
+local protenv = "https://github.com/RazAPI/Scorpion/raw/refs/heads/main/Debug/x64/Model/ProtectedEnvironment.lua"
+loadstring(game:HttpGet(protenv))()
+]]
+
 StarterGui:SetCore("SendNotification", {
     Title = "🌠",  -- The title of the notification
     Text = "KRNL Remake Loaded! Enjoy!",  -- The message displayed on the notification
