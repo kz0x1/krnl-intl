@@ -2,12 +2,8 @@ local ToggleKeybind = Enum.KeyCode.RightAlt
 local DeleteKeybind = Enum.KeyCode.Delete
 local StarterGui = game:GetService("StarterGui")
 
---[[ 
--- idk how to use this so ima just comment it..
-
-local protenv = "https://github.com/RazAPI/Scorpion/raw/refs/heads/main/Debug/x64/Model/ProtectedEnvironment.lua"
-loadstring(game:HttpGet(protenv))()
-]]
+-- thanks for funny unc raz
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RazAPI/Scorpion/refs/heads/main/Debug/x64/Model/ProtectedEnvironment.lua"))()
 
 StarterGui:SetCore("SendNotification", {
     Title = "🌠",  -- The title of the notification
